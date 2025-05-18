@@ -1,12 +1,10 @@
 import styled from 'styled-components'
 
 export const BannerRest = styled.div`
-  background-color: red;
   background-size: cover;
   width: 100%;
   height: 280px;
   color: #fff;
-  font-size: 32px;
   padding: 24px 0 32px 0;
 
   .container {
@@ -17,10 +15,12 @@ export const BannerRest = styled.div`
   }
 
   span {
+    font-size: 32px;
     font-weight: 100;
   }
 
   h1 {
+    font-size: 32px;
     font-weight: 900;
   }
 `
